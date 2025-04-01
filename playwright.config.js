@@ -11,7 +11,7 @@ export default defineConfig({
   use: {
     baseURL: 'https://vite-react-alpha-lemon.vercel.app',
     trace: 'on-first-retry',
-    headless: false,
+    headless: true,
   },
   projects: [
     {
